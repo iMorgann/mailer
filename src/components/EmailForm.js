@@ -53,7 +53,7 @@ const EmailForm = () => {
 
         setProgress('Sending emails...');
         try {
-            const response = await axios.post('https://backend-email-4a0f561698ea.herokuapp.com/send_email', {
+            const response = await axios.post('https://rebendemail-0880f98f384d.herokuapp.com/send_email', {
                 ...formData,
                 interval, // Pass the interval to the backend
             });
